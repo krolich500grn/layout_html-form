@@ -12,49 +12,54 @@
   </head>
   <body>
     <form
-    method="post"
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post"
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     >
       <fieldset class="form-group">
         <legend>Personal information</legend>
 
-        <label class="form-field">Surname:
+        <label class="form-field">
+          Surname:
           <input
-          type="text"
-          name="surname"
-          autocomplete="off"
+            type="text"
+            name="surname"
+            autocomplete="off"
           >
         </label>
 
-        <label class="form-field">Name:
+        <label class="form-field">
+          Name:
           <input
-          type="text"
-          name="name"
-          autocomplete="off"
+            type="text"
+            name="name"
+            autocomplete="off"
           >
         </label>
 
-        <label class="form-field">How old are You?
+        <label class="form-field">
+          How old are You?
           <input
-          type="number"
-          name="age"
-          value="12"
-          min="1"
-          max="100"
+            type="number"
+            name="age"
+            value="12"
+            min="1"
+            max="100"
           >
         </label>
 
-        <label class="form-field">Full date of birth:
+        <label class="form-field">
+          Full date of birth:
           <input
-          type="date"
-          name="dateOfBirth"
+            type="date"
+            name="dateOfBirth"
           >
         </label>
 
-        <label class="form-field">I accept the term of the agreement
+        <label class="form-field">
+          I accept the term of the agreement
           <input
-          type="checkbox"
-          name="terms"
+            type="checkbox"
+            name="terms"
           >
         </label>
       </fieldset>
@@ -62,19 +67,21 @@
       <fieldset class="form-group">
         <legend>Registration</legend>
 
-        <label class="form-field">E-mail:
+        <label class="form-field">
+          E-mail:
           <input
-          type="email"
-          name="email"
-          placeholder="email@example.com"
-          required
+            type="email"
+            name="email"
+            placeholder="email@example.com"
+            required
           >
         </label>
 
-        <label class="form-field">Password:
+        <label class="form-field">
+          Password:
           <input
-          type="password"
-          name="password"
+            type="password"
+            name="password"
           >
         </label>
       </fieldset>
@@ -82,42 +89,46 @@
       <fieldset class="form-group">
         <legend>An interesting fact about you!</legend>
 
-        <label class="form-field">Do you love cats?
+        <label class="form-field">
+          Do you love cats?
           <label>
             <input
-            type="radio"
-            name="doYouLoveCats"
-            value="yes"
+              type="radio"
+              name="doYouLoveCats"
+              value="yes"
             >Yes
           </label>
 
           <label>
             <input
-            type="radio"
-            name="doYouLoveCats"
-            value="no"
+              type="radio"
+              name="doYouLoveCats"
+              value="no"
             >No
           </label>
         </label>
 
-        <label class="form-field">What is your favorite color?
+        <label class="form-field">
+          What is your favorite color?
           <input
-          type="color"
-          name="color"
+            type="color"
+            name="color"
           >
         </label>
 
-        <label class="form-field">What time do you go to bed?
+        <label class="form-field">
+          What time do you go to bed?
           <input
-          type="time"
-          name="whatTimeDoYouGoToSleep"
+            type="time"
+            name="whatTimeDoYouGoToSleep"
           >
         </label>
 
-        <label class="form-field">What are your favorite brand of cars?
+        <label class="form-field">
+          What are your favorite brand of cars?
           <select
-          name="brand"
-          multiple
+            name="brand"
+            multiple
           >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -125,10 +136,11 @@
           </select>
         </label>
 
-        <label class="form-field">How do your rate our work?
+        <label class="form-field">
+          How do your rate our work?
           <input
-          type="range"
-          name="rate"
+            type="range"
+            name="rate"
           >
         </label>
       </fieldset>
@@ -136,15 +148,17 @@
       <fieldset class="form-group">
         <legend>Additional info:</legend>
 
-        <label class="form-field">Comments:
+        <label class="form-field">
+          Comments:
           <textarea
-          name="comment"
-          minlength="10"
-          maxlength="100"
+            name="comment"
+            minlength="10"
+            maxlength="100"
           > </textarea>
         </label>
 
-        <label class="form-field">Would you recommend us?
+        <label class="form-field">
+          Would you recommend us?
           <select name="recommend">
             <option value="yes" selected>yes</option>
             <option value="no">no</option>
